@@ -1,2 +1,7 @@
+import os
+import shutil
+
 def CopyFile():
-    pass
+    src = input("Set file path (SOURCE) :")
+    dest = input("Set Destination :")
+    shutil.copy(src , dest)
